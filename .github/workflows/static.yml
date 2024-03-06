@@ -35,12 +35,14 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
-      - name: build
-        run: |
-          node --version
-          npm install -g yarn
-          yarn install
-          yarn build-storybook
+      - name: Run install
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: install
+      - name: Run build
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: yarn build-storybook
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
