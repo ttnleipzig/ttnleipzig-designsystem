@@ -1,5 +1,5 @@
-import { create } from "@storybook/theming";
-import * as tokens from '../src/token/storybook/tokens';
+import {create} from "@storybook/theming"
+import * as tokens from '../src/token/storybook/tokens'
 
 export const light = create({
   base: "light",
@@ -32,7 +32,7 @@ export const light = create({
   inputTextColor: tokens.KsTextColorInterfaceInteractiveBase,
   inputBorderRadius: tokens.KsBorderRadiusControl,
 
-  brandTitle: "Your kickstartDS Storybook",
-  brandUrl: "https://www.kickstartDS.com",
+  brandTitle: "TTN Leipzig",
+  brandUrl: "https://ttn-leipzig.de",
   brandImage: "/logo.svg",
-});
+})

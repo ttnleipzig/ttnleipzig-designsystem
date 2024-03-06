@@ -146,7 +146,7 @@ This should set up all the needed dependencies. It could take a while the first 
 
 When the installation of dependencies is done, everything should be ready to start your own **Design System** for the very first time:
 
-```
+```bash
 yarn start
 ```
 

@@ -1,5 +1,5 @@
 {
-  "author": "Jonas Ulrich <jonas.ulrich@kickstartds.com>",
+  "author": "André Lademann <andre.lademann@ttn-leipzig.de>",
   "baseBranch": "main",
   "versionBranches": "support/",
   "plugins": [
